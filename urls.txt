@@ -1,0 +1,7 @@
+
+https://registration-pal-dist-nitin.apps.pikes.pal.pivotal.io/users/${USER_ID}
+https://registration-pal-dist-nitin.apps.pikes.pal.pivotal.io/accounts?ownerId=${USER_ID}
+https://registration-pal-dist-nitin.apps.pikes.pal.pivotal.io/projects?accountId=${ACCOUNT_ID}
+https://allocation-pal-dist-nitin.apps.pikes.pal.pivotal.io/allocations?projectId=${PROJECT_ID}
+https://backlog-pal-dist-nitin.apps.pikes.pal.pivotal.io/stories?projectId=${PROJECT_ID}
+https://timesheets-pal-dist-nitin.apps.pikes.pal.pivotal.io/time-entries?userId='Pete'
