@@ -2,8 +2,8 @@ applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: allocations-pal-nitlin-dsg-tracker-distributed.apps.pikes.pal.pivotal.io
   memory: 1G
+  - route: backlog-pal-dist-nitin.apps.pikes.pal.pivotal.io
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: http://FILL_ME_IN
