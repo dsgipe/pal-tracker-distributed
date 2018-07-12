@@ -20,7 +20,7 @@ public class UserControllerTest {
         doReturn(new UserRecord(3L, "Some User")).when(gateway).find(anyLong());
 
         UserInfo result = controller.show(3);
-
+ 
         verify(gateway).find(3L);
         assertThat(result).isEqualTo(new UserInfo(3L, "Some User", "user info"));
     }
