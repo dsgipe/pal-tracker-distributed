@@ -2,7 +2,7 @@ applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: backlog-pal-dist-nitin.apps.pikes.pal.pivotal.io
+  - route: allocation-pal-dist-nitin.apps.pikes.pal.pivotal.io
   memory: 1G
   instances: 1
   env:
