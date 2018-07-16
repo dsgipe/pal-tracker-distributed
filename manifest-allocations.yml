@@ -9,3 +9,4 @@ applications:
   - tracker-allocations-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
+  - tracker-redis
