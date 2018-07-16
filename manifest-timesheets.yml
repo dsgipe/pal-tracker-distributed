@@ -5,7 +5,7 @@ applications:
   - route: timesheets-pal-dist-nitin.apps.pikes.pal.pivotal.io
   memory: 1G
   instances: 1
-  env:
   services:
   - tracker-timesheets-database
   - tracker-service-registry
+  - tracker-circuit-breaker-dashboard
