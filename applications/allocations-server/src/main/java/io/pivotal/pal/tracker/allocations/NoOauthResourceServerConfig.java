@@ -15,6 +15,7 @@ public class NoOauthResourceServerConfig extends ResourceServerConfigurerAdapter
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
+        System.out.println("in noOATH");
         http.authorizeRequests().anyRequest().permitAll();
     }
 
